@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+body{
+   
+   font-family: 'Red Hat Text' , sans-serif;
+   background:#1D1E28 url(https://kartinkin.net/pics/uploads/posts/2022-08/1661217451_1-kartinkin-net-p-fon-dlya-foto-prostoi-krasivo-1.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+  //  background-position:70% 60%;
+  //  background:#1E28;
+}
+h1{
+  width: max-content;
+    margin: 60px auto;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.wrapper{
+  width: max-content;
+  height: max-content;
+  display: flex;
+  // align-items: center;
+  column-gap:2rem;
+  margin: 60px auto;  
+  .all{
+    width: 148px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #343650;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius:8px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 71px;
+    /* identical to box height, or 89% */
+
+    text-align: center;
+    letter-spacing: -2.4px;
+
+    color: #f3164d;
+  }
+  .some{
+    text-align: center;
+    opacity: 0.8;
+
+    p{
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 5.91875px;
+      text-transform: uppercase;
+
+      color: #ffffff;
+    }
+  }
+
+
+}
+footer{
+  width: 100%;
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+  // background:rgb(193, 62, 62);
+  
+  // background:url(../img/Group\ 5.svg);
+  //  background-repeat: no-repeat;
+  //  background-position:0 0;
+  .icons{
+    display: flex;
+    column-gap: 30px;
+   
+    .hover{
+      &:hover{
+        cursor: pointer;
+        // background: #f3164d;
+        transform: scale();
+        border-radius: 5px;
+      }
+    }
+  }
+}
