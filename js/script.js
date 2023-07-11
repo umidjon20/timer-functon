@@ -1,4 +1,4 @@
-let deadline = '2023-03-28'
+let deadline = '2023-07-28'
 
 function getTimerData(dl){
     let timer = Date.parse(dl) - Date.parse(new Date()),
@@ -18,7 +18,7 @@ function getTimerData(dl){
     }
 
     return {
-        t:timer,
+        timer,
         days,
         hours,
         minutes,
@@ -48,7 +48,7 @@ function showTimer(showDl){
 }
 
 function addZero(num){
-   if(num > 0 && num < 10){
+   if(num >= 0 && num < 10){
     return `0${num}`
    }else{
     return num
